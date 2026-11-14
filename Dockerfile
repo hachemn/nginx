@@ -5,7 +5,8 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+# Use the official lightweight Nginx image
+FROM nginx:alpine
 
 # Install Nginx.
 RUN \
